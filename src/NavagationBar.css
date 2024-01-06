@@ -5,8 +5,23 @@ nav{
     padding: 20px 5px;
     top: 0;
     position: fixed;
+    background: linear-gradient(90deg, #96beff, #393839);
+    animation: gradient_anim 23s ease infinite;
     width: 100%;
+    z-index:9999;
 }
+
+@keyframes gradient_anim {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
 
 @font-face {
     font-family: Raleway;

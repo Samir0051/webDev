@@ -7,7 +7,7 @@
     position: absolute;
     box-sizing: border-box;
     margin: auto;
-    width: 80%; 
+    width:95%; 
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -21,6 +21,7 @@
 }
 .flexbox-container img {
     flex-basis: 100%;
+    flex-shrink: 2;
 }
 
 

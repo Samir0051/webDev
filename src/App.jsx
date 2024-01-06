@@ -1,5 +1,6 @@
 import './App.css'
 import NavagationBar from './NavagationBar'
+import Footer from './Footer'
 
 import Home from "./pages/Home"
 import Cool from "./pages/Cool"
@@ -21,7 +22,8 @@ function App() {
         <Route path="/Cool" element={<Cool />} />
         <Route path="/More" element={<More />} />
         <Route path="/Stuff" element={<Stuff />} />
-      </Routes>
+        </Routes>
+        <Footer></Footer>
       </div>
     </HashRouter>
     </>
