@@ -5,7 +5,7 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
-z
+
   return (
     <>
       <div>
@@ -22,7 +22,7 @@ z
           count is {count}
         </button>
         <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
+          Edit <code>src/App.tsx</code> and save to test HMR
         </p>
       </div>
       <p className="read-the-docs">
