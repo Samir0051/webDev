@@ -1,5 +1,5 @@
 import './Footer.css'
-import insta from "./pictures/yes.png"
+import insta from "./pictures/instagram_icon.png"
 import linkedin from "./pictures/linkedin_icon.png"
 import spotify from "./pictures/spotify_icon.png"
 
