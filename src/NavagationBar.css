@@ -1,27 +1,29 @@
-nav{
+nav {
     display: flex;
-    align-items:center;
+    align-items: center;
     justify-content: space-between;
     padding: 20px 5px;
     top: 0;
     position: fixed;
-    background: linear-gradient(90deg, #96beff, #393839);
-    animation: gradient_anim 23s ease infinite;
+    background: linear-gradient(90deg, #42adff, #393839);
     width: 100%;
-    z-index:9999;
+    z-index: 9999;
+    animation: gradient_anim 23s ease infinite;
+    background-size: 200%; /* Ensure the background covers the entire linear gradient */
 }
+
 
 @keyframes gradient_anim {
     0% {
-      background-position: 0% 50%;
+        background-position: 0% 50%;
     }
     50% {
-      background-position: 100% 50%;
+        background-position: 100% 50%;
     }
     100% {
-      background-position: 0% 50%;
+        background-position: 0% 50%;
     }
-  }
+}
 
 @font-face {
     font-family: Raleway;
@@ -32,6 +34,7 @@ nav{
     margin-left: 30px;
     font-family: Raleway;
     font-size: 40px;
+    text-shadow: 2px 2px 10px #000;
 }
 #navbar{
     display:flex;
@@ -51,7 +54,9 @@ nav{
     font-size: 1.8rem;
     font-weight: 600;
     color: #fff;
+    font-family: Raleway;
     transition: 0.3s ease-in-out;
+    text-shadow: 2px 2px 10px #000;
 }
 
 #navbar li a:hover{
