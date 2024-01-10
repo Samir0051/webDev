@@ -12,21 +12,9 @@ import { Routes, Route, HashRouter } from "react-router-dom";
 function App() {
 
   return (
-    <>
-    <HashRouter>
-      <div id ="content">
-        <NavagationBar></NavagationBar>
-        <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/Home" element={<Home />} />
-        <Route path="/Cool" element={<Cool />} />
-        <Route path="/More" element={<More />} />
-        <Route path="/Stuff" element={<Stuff />} />
-        </Routes>
-        <Footer></Footer>
-      </div>
-    </HashRouter>
-    </>
+     <>
+         <NavagationBar></NavagationBar>
+   </>
   )
 }
 

@@ -21,12 +21,12 @@ export default function Home(){
     
     return (
     <>
-    <section class = "hidden">
+    <div id= "hidden">
     <div class ="flexbox-container">
             <p id ="name">this is a picture of a bird! it looks a bit odd, but i'm sure it's nice</p>
             <img src={image} alt="React Image" />
     </div>
-    </section>
+    </div>
     </>
     )
 }
