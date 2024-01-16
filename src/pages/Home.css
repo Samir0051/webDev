@@ -12,6 +12,12 @@
     align-items: center;
     justify-content: space-between;
     padding-bottom: 50px; /* or use padding-bottom */
+    flex-direction: column;
+    padding-top: 200px;
+}
+
+.flexbox-container > * {
+    margin-bottom: 1rem;
 }
 
 .hidden {
@@ -32,4 +38,11 @@
     flex-shrink: 2;
 }
 
+
+#quote{
+    text-align: center;
+}
+#author{
+    text-align: center;
+}
 
